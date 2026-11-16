@@ -1,0 +1,4 @@
+'use strict';
+let bits=[0,0,1,0,1,0,1,0];const box=document.querySelector('#bits');
+function render(){box.replaceChildren();bits.forEach((b,i)=>{const cell=document.createElement('div');cell.className='bit';const btn=document.createElement('button');btn.type='button';btn.textContent=b;btn.setAttribute('aria-pressed',String(Boolean(b)));btn.setAttribute('aria-label','權重 '+(2**(7-i))+'，位元 '+b);btn.addEventListener('click',()=>{bits[i]=1-bits[i];render();box.children[i].querySelector('button').focus();});const label=document.createElement('small');label.textContent=2**(7-i);cell.append(btn,label);box.append(cell);});document.querySelector('#value').textContent='十進位 = '+CS.binaryValue(bits);const terms=bits.flatMap((b,i)=>b?[2**(7-i)]:[]);document.querySelector('#formula').textContent=bits.join('')+'₂ = '+(terms.join(' + ')||'0')+' = '+CS.binaryValue(bits);}
+document.querySelector('#reset').addEventListener('click',()=>{bits=[0,0,1,0,1,0,1,0];render();});render();
