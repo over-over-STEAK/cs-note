@@ -65,5 +65,3 @@ GitHub Pages 尚待啟用；請依 GITHUB_SETUP.md 第 3 節設定 main 分支�
 ## 參考與原創說明
 
 參考 [DiveAI 講義庫](https://diveai-lab.github.io/diveai-lessons/) 與其 [CLAUDE.md](https://github.com/diveai-lab/diveai-lessons/blob/main/CLAUDE.md) 的「規則先行、內容稿、目錄與持續延伸」概念。本專案使用不同視覺設計、原創文字及互動程式，未複製其教材、Logo 或吉祥物。概念延伸閱讀附於各講義頁尾。
-
-本專案由 AI 協助製作；提交前請實際操作、理解規則，並依課程要求揭露 AI 使用情況。
