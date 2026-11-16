@@ -10,8 +10,7 @@
 https://github.com/over-over-STEAK/cs-note
 
 ## 3. 網頁連結
-【GitHub Pages 發布成功並實際開啟後填入網址】
-
+https://over-over-steak.github.io/cs-note/lessons/binary-basics/index.html
 ## 4. AGENTS.md
 https://github.com/over-over-STEAK/cs-note/blob/main/AGENTS.md
 
